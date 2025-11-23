@@ -8,7 +8,6 @@ function Watchlist() {
     return (
         <div>
 
-            <h1>This is the watchlist</h1>
             <Button onClick={() => removeAll}>Remove all</Button>
             <Grid container justifyContent="space-between" alignItems="stretch">
                 {elements.map((serie, index) => (
