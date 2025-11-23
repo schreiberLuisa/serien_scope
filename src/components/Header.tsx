@@ -20,7 +20,7 @@ const Header = () => {
                     <Button color="inherit" onClick={() => navigate("watchlist")}>Watchlist</Button>
                     <Button color="inherit" onClick={() => setLanguage(language === "en" ? "de" : "en")}>
 
-                        {language === "en" ? "DE" : "EN"}
+                        {language === "en" ? "DE" : "EN" }
                     </Button>
                 </Toolbar>
             </AppBar>
